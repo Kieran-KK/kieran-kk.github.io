@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="css/sneakstyle.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    
+    
+</head>
+
+<body>
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="portfolio.html"><img src="imgshoe/KKsmall.png" height="30" width="35" /></a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nucampNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="portfolio.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfoliorelease.html"><i class="fa fa-info fa-lg"></i>  My Collection</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolioreviews.html"><i class="fa fa-list fa-lg"></i>  Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfoliocontact.html"><i class="fa fa-address-card fa-lg"></i> Join Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col">
+                    <a href="portfolio.html"><img src="imgshoe/KKstar.png" class="img-fluid" /></a>
+                    <h2>a cutural connection for shoes</h2>
+                </div>
+            </div> 
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Current Rotation</h2>
+    </div>
+    <!-- Desktop View -->
+    <div class="gallery d-none d-md-block js-flickity" data-flickity-options='{"freeScroll": true, "wrapAround": true, "autoPlay": true }'>
+        <div class="gallery-cell">
+            <img src="imgshoe/habblz.jpg"/>
+            <div class="container">
+                <h3  data-toggle="tooltip" title="1/1/20">Nike Blazer: Habanero Red</h3>               
+            </div>
+        </div>
+        <div class="gallery-cell">
+            <img src="imgshoe/chunkdunk.jpg"/>
+            <div class="container">
+                <h3  data-toggle="tooltip" title="1/2/20">Nike SB: Chunky Dunky</h3>                       
+            </div>
+        </div>
+        <div class="gallery-cell">
+            <img src="imgshoe/air-jordan-6-hare.jpg"/>
+            <div class="container">
+                <h3 data-toggle="tooltip" title="1/3/20">Air Jordan 6: Hare</h3>                        
+            </div>
+        </div>
+    </div>  
+     <!-- Mobile View -->
+    <div class="carousel  d-sm-block d-md-none" id="mainCarousel" data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": false, "wrapAround": true, "autoPlay": true   }'>
+        <div  class="carousel-cell active">
+            <img class="d-block w-100" src="imgshoe/placeholdershoe.jpg">
+                <div class="carousel-caption">
+                    <p data-toggle="tooltip" title="1/1/20">Nike Blazer: Habanero Red</p>
+                </div>
+        </div>
+        <div class="carousel-cell">                   
+                    <img class="d-block w-100" src="imgshoe/placeholdershoe.jpg">
+                        <div class="carousel-caption">
+                            <p data-toggle="tooltip" title="1/1/20">Nike Blazer: Habanero Red</p>
+                        </div>
+        </div>
+        <div class="carousel-cell">
+            <img class="d-block w-100" src="imgshoe/placeholdershoe.jpg">
+                <div class="carousel-caption">
+                    <p data-toggle="tooltip" title="1/1/20">Nike Blazer: Habanero Red</p>
+                </div>
+        </div>
+    </div>
+    <!-- Footer -->        
+    <div>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-2 offset-1">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li class="nav-item active"><a class="nav-link" href="portfolio.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="portfoliorelease.html"> My Collection</a></li>
+                            <li class="nav-item"><a class="nav-link" href="portfolioreviews.html"> Reviews </a> </li>
+                            <li class="nav-item"><a class="nav-link" href="portfoliocontact.html"> Join us </a> </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-5">
+                        <h5>Social</h5>
+                        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCC34SM7fD5H3gIkoD2ndLjg"><i class="fa fa-youtube"></i></a>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-111-111-1111</a><br />
+                        <a role="button" class="btn btn-link" href="mailto:killerkicksite@gmail.com"><i class="fa fa-envelope-o"></i> killerkicksite@gmail.com</a>
+                    </div>
+                </div>
+            </div> 
+        </footer>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="flickity.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+    <script src="js/sneakscript.js"></script>
+    
+
+</body>
+
+</html>
